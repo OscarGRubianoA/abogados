@@ -15,6 +15,7 @@ nav p{
 }
 nav a{
     color: grey;
+    background-color: aliceblue;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -39,7 +40,7 @@ header p{
 }
 form{
     background-color:rgba(11, 16, 22, 0.628);
-    padding: 2rem 4rem 2rem 4rem;
+    padding: 2rem 6rem 2rem 6rem;
     display:flex;
 }
 form .buscar{
@@ -51,7 +52,13 @@ select{
     padding: .4rem;
 }
 .ubicacion{
-    display: flex;
+    font-size: .8rem;
+    display:inline;
+    position: absolute;
+    top: 12.9rem;
+    left:42.2rem
+
+    
 }
 main {
     padding: 2rem 19rem 1rem 19rem;
@@ -60,24 +67,34 @@ main {
     gap:1.2rem;
     background-color: aliceblue;
 }
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 section p,a{
-    padding: 1rem;
+    padding: auto;
     background-color: white;
-    
+    padding: 1rem;
 }
 .section1 h3{
     width: 15rem;
-    min-height: 34.4vh;
+    min-height: 32vh;
     background-image: url(./assets/abogado-news.jpg);
     background-position: center;
+    
     
     
 }
 .section2 h3{
     width: 15rem;
-    min-height: 34.4vh;
+    min-height: 32vh;
     background-image: url(./assets/abogado-newsletter.jpg);
     background-position: center;
+    
+   
+    
 }
 .section3 h3{
     width: 15rem;
@@ -93,19 +110,19 @@ h3{
     align-items: flex-end;
     text-align: center;
     color: white;
-    background-color: green;
+    background-color: green !important;
 }
 section img{
     width:15rem;
-    max-width: 32vh;
+    min-height:17.2rem;
 }
 section p{
     font-size: .8rem;
    
 }
 section a{
-    border: 1px solid cadetblue;
-    color:cadetblue;
+    border: 1px solid rgb(44, 95, 97);
+    color: rgb(44,95,97);
     text-decoration: none;
     font-size: .8rem;
     font-weight: bolder;
