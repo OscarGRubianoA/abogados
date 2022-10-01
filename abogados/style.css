@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: aliceblue;
+   display: flex;
+   justify-content:center;
+   gap: 1rem;
+   align-items:baseline;
+}
+nav p{
+    color:orangered;
+}
+nav a{
+    color: grey;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+nav span{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+header{
+    height: 40vh;
+    color: white;
+    background-image: url(./assets/search-tile-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+header p{
+    font-size: .9rem;
+    margin:0 18rem 0 18rem;
+    text-align: center;
+}
+form{
+    background-color:rgba(11, 16, 22, 0.628);
+    padding: 2rem 4rem 2rem 4rem;
+    display:flex;
+}
+form .buscar{
+    color: white;
+    background-color: darkorange;
+    padding: 8px 2rem 8px 2rem;
+}
+select{
+    padding: .4rem;
+}
+.ubicacion{
+    display: flex;
+}
+main {
+    padding: 2rem 19rem 1rem 19rem;
+    display: flex;
+    justify-content: center;
+    gap:1.2rem;
+    background-color: aliceblue;
+}
+section p,a{
+    padding: 1rem;
+    background-color: white;
+    
+}
+.section1 h3{
+    width: 15rem;
+    min-height: 34.4vh;
+    background-image: url(./assets/abogado-news.jpg);
+    background-position: center;
+    
+    
+}
+.section2 h3{
+    width: 15rem;
+    min-height: 34.4vh;
+    background-image: url(./assets/abogado-newsletter.jpg);
+    background-position: center;
+}
+.section3 h3{
+    width: 15rem;
+    min-height: 32vh;
+    background-image: url(./assets/abogado-social.jpg);
+    background-position: center;
+    background-color:cadetblue;
+}
+h3{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+section img{
+    width:15rem;
+    max-width: 32vh;
+}
+section p{
+    font-size: .8rem;
+   
+}
+section a{
+    border: 1px solid cadetblue;
+    color:cadetblue;
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: bolder;
+    margin: 0 3rem 0 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
